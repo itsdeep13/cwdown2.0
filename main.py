@@ -19,9 +19,9 @@ import re
 import requests
 bot = Client(
     "CW",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("6685547719:AAHRce4N90dhZu-Kx2cJm_KO_wvV_Sdtzco"),
+    api_id=int(os.environ.get("3498045")),
+    api_hash=os.environ.get("229441a8b355de58ba025be657c82ea3")
 )
 
 logger = logging.getLogger()
